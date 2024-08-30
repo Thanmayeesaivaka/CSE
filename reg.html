@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>
+            REGISTRATION FORM
+        </title>
+        <link rel="stylesheet" href="stle.css">
+        <style>
+            body {
+              background-color: #FFFAF0;
+            }
+            .label {
+            color: rgb(255, 255, 255);
+            padding: 8px;
+            }
+            div{
+                width: 500px;
+                height: 700px;
+                padding: 10px;
+                border: 5px solid #FFFAF0;
+                margin: 0;
+                background: #73e2e6;
+            }
+            .center {
+           margin: auto;
+           width: 50%;
+           border: 3px solid#DB7093;
+           padding: 10px;
+          }
+            </style>
+            
+        
+    </head>
+    <body>
+        <form>
+            <fieldset>
+        <div class="center" style="border: 2px solid ; border-radius: 10px; padding: 20px;">
+       <center><h1 style="color:rgb(255, 0, 34)">REGISTRATION FORM</h1></center> 
+        <label for="fname">First name:</label>
+        <input type ="text" id ="fname" name="fname" > <br> <br>
+        <label for="lname">Last name:</label>
+        <input type ="text" id ="lname" name="lname">  <br> <br>
+        <label for="dob">Date of birth:</label>
+        <input type ="text" id ="dob" name="dob">  <br> <br>
+        <label for="phno">Phone number:</label>
+        <input type ="text" id ="phno" name="phno">  <br> <br>
+        <label for="email">Email id:</label>
+        <input type ="text" id ="email" name="email">  <br> <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" value="Male" name="gender">Male
+        <input type="radio" value="Female" name="gender">Female <br> <br>
+        <label for="cllg">Select your college:</label>
+        <select name="cllg">
+        <option value="brecw">BHOJ REDDY ENGINEERING COLLEGE FOR WOMEN</option>
+        <option value="mvsr"> MATURI VENKATA SUBBA RAO COLLEGE OF ENGINEERING</option>
+        <option value="kmit"> KESHAV MEMORIAL INSTITUTE OF TECHNOLOGY</option>
+        <option value="ngit"> NEIL GOGTE INSTITUTE OF TECHNOLOGY</option>
+        <option value="GNITS">G.NARAYANAMMA INSTITUTTE OF TECHNOLOGY AND SCIENCES </option></select>:<br><br>
+
+        <label for="gender">Branch:</label><br>
+        <input type="radio" value="cse" name="branch">CSE<br>
+        <input type="radio" value="aiml" name="branch">CSE-AIML <br>
+        <input type="radio" value="ece" name="branch">ECE <br>
+        <input type="radio" value="eee" name="branch">EEE <br> <br>
+
+        <label for="language">Choose your programming language:</label><br>
+        <input type="checkbox" name="c" value="c">C <br>
+        <input type="checkbox" name="c++" value="c++">C++ <br>
+        <input type="checkbox" name="python" value="python">PYTHON <br>
+        <input type="checkbox" name="java" value="java">JAVA <br>
+        <input type="checkbox" name="flutter" value="flutter">FLUTTER <br><br>
+        <input type="file" id="myFile" name="filename"><br> <br>
+        <input type="reset" value="Reset"> 
+        <input type="submit" value="Submit">  
+    </div>
+    </fieldset>
+    </form>  
+ 
+    </body>
+</html>
